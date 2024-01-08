@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 ;
+    outline: none;
+    border: none;
+    
+}
+
+body {
+  background-image: url('./imagini glamping/back1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    max-width: 800px;
+    margin-bottom: 500px;
+    backdrop-filter: blur(5px);
+    border:1px solid #fff;
+    border-radius:10px;
+}
+
+.container h1{
+    color:#fff;
+    font-size: 50px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container h2{
+    color:#fff;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container p{
+    color:#fff;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-size: cover;
+    }
+    .container {
+        max-width: 100%;
+        backdrop-filter:blur(1px);
+    }
+
+    .container h1 {
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .container h2 {
+        font-size: 24px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .container p {
+        font-size: 16px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+}
